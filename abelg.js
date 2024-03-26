@@ -1,8 +1,8 @@
 import axios from 'axios';
-import { axiosConfig } from '@wangxi2023/proxy';
-import { sleep } from '@wangxi2023/sleep';
-import { formatTimestamp } from '@wangxi2023/date-time-processor';
-import { log } from '@wangxi2023/log';
+import { axiosConfig } from '@abelg/proxy';
+import { sleep } from '@abelg/sleep';
+import { formatTimestamp } from '@abelg/date-time-processor';
+import { log } from '@abelg/log';
 
 const retryDuration = 1000;
 
